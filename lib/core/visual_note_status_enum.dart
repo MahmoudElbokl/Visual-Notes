@@ -1,0 +1,1 @@
+enum VisualNoteStatus { closed, open }
