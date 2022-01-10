@@ -146,7 +146,7 @@ class VisualNotesScreen extends StatelessWidget {
                 );
               } else {
                 return const Center(
-                  child: Text("There is no any articles now."),
+                  child: Text("There is no any visual notes now."),
                 );
               }
             } else {
