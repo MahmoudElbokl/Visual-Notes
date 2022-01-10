@@ -46,7 +46,7 @@ class VisualNotesScreen extends StatelessWidget {
                   itemBuilder: (context, index) {
                     return Container(
                       width: Get.width,
-                      height: 100.h,
+                      height: 150.h,
                       decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(16.r),
@@ -60,7 +60,7 @@ class VisualNotesScreen extends StatelessWidget {
                           Padding(
                             padding: EdgeInsets.only(right: 10.w),
                             child: SizedBox(
-                              height: 50.h,
+                              height: 150.h,
                               width: Get.width * 0.3,
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(18),
